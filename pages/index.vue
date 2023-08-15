@@ -1,9 +1,11 @@
 <template>
-  <div>
-    index
-  </div>
+  <MainLayout>
+  salut
+  </MainLayout>
+
 </template>
 
 <script setup>
+import MainLayout from '~/layouts/MainLayout.vue';
 
 </script>
