@@ -65,6 +65,13 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 # installation du projet
 >  npm create vite@latest 3_vue3_nuxt_tailwind_supabase_prisma_pwa_meta_vite --template vue
 
+# url et github du tuto
+https://www.youtube.com/watch?v=TfKDkErJUtk&list=PL3pX4NAc7vJvBhW5bcngX011BsaFpD-Yo&index=2&t=187s
+https://github.com/John-Weeks-Dev/threads-clone
+
 # installation des dependances
 
+> npm i @nuxtjs/supabase @nuxtjs/tailwindcss @pinia/nuxt @prisma/client @vite-pwa/nuxt nuxt-icon prisma uuid
+> npm i pinia -f
+> npm run dev
 
