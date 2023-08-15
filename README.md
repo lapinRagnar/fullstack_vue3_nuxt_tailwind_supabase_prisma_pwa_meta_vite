@@ -75,3 +75,6 @@ https://github.com/John-Weeks-Dev/threads-clone
 > npm i pinia -f
 > npm run dev
 
+# lien pour les icons
+https://icones.js.org/
+
