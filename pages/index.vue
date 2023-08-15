@@ -3,8 +3,8 @@
     <div id="IndexPage" class="w-full overflow-auto">
       <div class="mx-auto max-w-[500px] overflow-hidden">
         <div id="Posts" class="px-4 max-w-[600px] mx-auto" >
-          <div class="text-white" v-if="isPosts" v-for="post in posts" :key="post">
-            {{ post }}
+          <div v-if="isPosts" v-for="post in posts" :key="post">
+            <Post />
           </div>
 
         </div>
