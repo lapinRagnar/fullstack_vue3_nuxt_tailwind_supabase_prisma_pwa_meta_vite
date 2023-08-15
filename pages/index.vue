@@ -1,5 +1,9 @@
 <template>
   <div>
-    <NuxtPage />
+    index
   </div>
 </template>
+
+<script setup>
+
+</script>
