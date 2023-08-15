@@ -78,3 +78,10 @@ https://github.com/John-Weeks-Dev/threads-clone
 # lien pour les icons
 https://icones.js.org/
 
+# supabase
+teny miafina : Lapinragnar%%%
+
+# prisma cammand 
+> npx prisma init 
+> npx prisma generate
+> npx prisma migrate dev --name init
