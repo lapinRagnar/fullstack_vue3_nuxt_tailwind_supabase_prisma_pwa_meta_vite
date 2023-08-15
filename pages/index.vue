@@ -4,7 +4,7 @@
       <div class="mx-auto max-w-[500px] overflow-hidden">
         <div id="Posts" class="px-4 max-w-[600px] mx-auto" >
           <div v-if="isPosts" v-for="post in posts" :key="post">
-            <Post />
+            <Post :post="post" @isDeleted="posts = []" />
           </div>
 
         </div>
@@ -29,8 +29,8 @@ onBeforeMount(() => {
   posts.value = [
     {
       name: 'John Doe',
-      Image: 'https://placehold.co/100',
-      Text: 'ceci est le titre',
+      image: 'https://placehold.co/100',
+      text: 'ceci est le titre',
       picture: 'https://placehold.co/500'
     }
   ]
